@@ -21,7 +21,8 @@ submit.addEventListener("click", function (e) {
 
   if (inputValue > 10) {
     message.textContent = "please enter valid number 1-10";
-    message.style.color = "red";
+    message.style.color = "tomato";
+    message.style.backgroundColor = "gray";
   } else {
     totalScore += inputValue;
     score.textContent = totalScore;
